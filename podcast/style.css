@@ -1,0 +1,58 @@
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (42).jpg")no-repeat center center;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .view {
+        overflow: visible;
+        margin-top: -56px;
+    }
+}
+.navbar {
+    z-index: 1;
+}
+.navbar {
+    background-color: transparent;
+}
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+
+.intro-1 {
+    background: url("img/facebook-blur.jpg")no-repeat center center;
+    background-size: cover;
+}
+.bar {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    opacity: 0.5;
+    background: black;
+    border-top: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    margin-top: 5.0em;
+  }
+    
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
